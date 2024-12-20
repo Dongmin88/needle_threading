@@ -14,7 +14,7 @@ import gc
 
 def setup_huggingface():
     """Setup Hugging Face authentication and requirements."""
-    token = "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"
+    token = "your-token"
     
     try:
         os.environ["HUGGINGFACE_TOKEN"] = token
